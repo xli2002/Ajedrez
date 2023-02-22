@@ -1,5 +1,4 @@
-import model.*;
-import tad.ListCoor;
+import model.Board;
 
 public class PruebaMain {
 
@@ -10,7 +9,6 @@ public class PruebaMain {
         b.startPieces();
         System.out.println(b);
         b = new Board();
-
 
 //        b.testPlacePawn();
 //        ListCoor coordinates = b.getCell(new Coordinate('C',7)).getPiece().getNextMovements();
