@@ -1,11 +1,9 @@
 package model;
 
 import tad.ListPieces;
-
 import static com.diogonunes.jcolor.Ansi.colorize;
 
 public class DeletedPieceManager implements IDeletedPieceManager{
-
     private ListPieces pieces;
 
     public DeletedPieceManager(){ pieces = new ListPieces();}
@@ -36,5 +34,4 @@ public class DeletedPieceManager implements IDeletedPieceManager{
         return output;
 
     }
-
 }

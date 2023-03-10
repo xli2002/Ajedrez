@@ -82,8 +82,8 @@ public abstract class Piece {
         BLACK_BISHOP("\u265D", Color.BLACK),
         WHITE_KNIGHT("\u265E", Color.WHITE),
         BLACK_KNIGHT("\u265E", Color.BLACK),
-        WHITE_PAWN("\u2659", Color.WHITE),
-        BLACK_PAWN("\u2659", Color.BLACK);
+        WHITE_PAWN("\u265F", Color.WHITE),
+        BLACK_PAWN("\u265F", Color.BLACK);
         private String shape;
         private Color color;
         private Type(String shape, Color color) {
